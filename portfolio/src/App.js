@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import Legal from "./pages/Legal";
 import Projects from "./pages/Projects";
+import './App.css';
 
 export default function App() {
   return (
@@ -21,8 +22,8 @@ export default function App() {
           <Route path="/modal" element={<Modal />} />
           <Route path="legal" element={<Legal />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/footer" element={<Footer />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
