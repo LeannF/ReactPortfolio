@@ -1,11 +1,9 @@
 nav ul{
     display: flex;
     justify-content: space-between;
-    list-style: none;
 }
 
 .nav-link, .navbar-brand {
     color: white ;
     text-transform: uppercase;
 }
-
