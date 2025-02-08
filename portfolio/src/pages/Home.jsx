@@ -2,10 +2,10 @@ import '../components/css/Home.css';
 
 const Home = () => {
     return(
-        <main>
+        <main className="home">
             <section id="intro" className="text-white text-center ">
-                <h1>Bonjour, je suis Léann Farant</h1>
-                <h2>Développeur web full stack</h2>
+                <h1 className="fw-bold">Bonjour, je suis Léann Farant</h1>
+                <h2 className="fw-bold">Développeur web full stack</h2>
                 <button className="btn bg-danger text-white mt-3" type="button" data-bs-toggle="modal" data-bs-target="#modal">En savoir plus</button>
             </section>
 
