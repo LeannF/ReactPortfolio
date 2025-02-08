@@ -25,7 +25,7 @@ const Home = () => {
                     </div>
 
                     <div id="skills" className="col-md-6">
-                        <h3>Mes compétences</h3>
+                        <h3 id="titleBorder">Mes compétences</h3>
                         <h4>HTML 80%</h4>
                         <div className="progress mb-4" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">              
                             <div className="progress-bar bg-danger" style={{width: 80+'%'}}></div>

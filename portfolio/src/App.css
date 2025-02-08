@@ -1,0 +1,11 @@
+#split {
+    border-bottom: 4px solid #007bff;
+    margin-bottom: 4em;
+    width: 35%;
+}
+
+#titleBorder{
+    border-bottom: 4px solid #007bff;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}

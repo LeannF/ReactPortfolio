@@ -11,6 +11,7 @@ const Services = () => {
                 <h1 className="fw-bold">Mon offre de services</h1>
                 <p>Voici les prestations sur lesquelles je peux intervenir</p>
                 <div id="split" className="container"></div>
+                
                 <div className="row">
                     <div className="col-md-4 mb-5">
                         <div className="card">
