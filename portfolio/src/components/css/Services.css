@@ -1,8 +1,0 @@
-.card{
-    height: 350px;
-}
-
-.card:hover{
-    background-color: #efefef;
-    box-shadow: 5px 5px 5px #efefef;
-}

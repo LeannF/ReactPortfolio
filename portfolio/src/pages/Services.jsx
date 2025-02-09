@@ -1,5 +1,3 @@
-import '../components/css/Services.css';
-
 const Services = () => {
     return(
         <main className="services">
@@ -11,7 +9,7 @@ const Services = () => {
                 <h1 className="fw-bold">Mon offre de services</h1>
                 <p>Voici les prestations sur lesquelles je peux intervenir</p>
                 <div id="split" className="container"></div>
-                
+
                 <div className="row">
                     <div className="col-md-4 mb-5">
                         <div className="card">
@@ -32,7 +30,7 @@ const Services = () => {
                     </div>
 
                     <div className="col-md-4 mb-5">
-                        <div className="card ">
+                        <div className="card">
                             <div className="card-body">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-code-slash text-primary m-4" viewBox="0 0 16 16">
                                 <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>

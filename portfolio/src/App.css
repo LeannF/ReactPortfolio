@@ -9,3 +9,26 @@
     padding-bottom: 1em;
     margin-bottom: 2em;
 }
+
+.services .card{
+    height: 350px;
+}
+
+.card:hover{
+    background-color: #efefef;
+    box-shadow: 5px 5px 5px #efefef;
+}
+
+.projects img{
+    object-fit: cover;
+    height: 250px;
+}
+
+.modal-content{
+    width: 700px;
+}
+
+.modalContent{
+    border-bottom: 1px solid #6c757d;
+    margin-bottom: 1em;
+}

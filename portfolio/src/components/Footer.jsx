@@ -53,19 +53,19 @@ const Footer = () => {
                         <div className="container">
                             <ul>
                                 <li className="py-1">
-                                    <Link to="/projects" >Site e-commerce</Link>
+                                    <Link to="/projects">Site e-commerce</Link>
                                 </li>
                                 <li className="py-1">
-                                    <Link to="/projects"  >Site vitrine</Link>
+                                    <Link to="/projects">Site vitrine</Link>
                                 </li>
                                 <li className="py-1">
-                                    <Link to="/projects" >Portfolio</Link>
+                                    <Link to="/projects">Portfolio</Link>
                                 </li>
                                 <li className="py-1">
-                                    <Link to="/projects" >Ennisia</Link>
+                                    <Link to="/projects">Ennisia</Link>
                                 </li>
                                 <li className="py-1">
-                                    <Link to="/projects" >CV</Link>
+                                    <Link to="/projects">CV</Link>
                                 </li>
                             </ul>  
                         </div>                

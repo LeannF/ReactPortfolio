@@ -18,7 +18,7 @@ const Contact = () => {
                             <input type="tel" className="form-control mb-3" id="FormControlInput3" placeholder="Votre numéro de téléphone" required/>
                             <input type="subject" className="form-control mb-3" id="FormControlInput4" placeholder="Sujet" required/>
                             <textarea className="form-control" placeholder="Votre message" id="FormControlTextarea1" rows="12" required></textarea>
-                            <button className="btn bg-primary text-white m-3" type="submit">Envoyer</button>
+                            <button className="btn bg-primary text-white m-3" type="">Envoyer</button>
                         </form>
                     </div>
                     <div className="col-md-6 text-start">

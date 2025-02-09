@@ -1,12 +1,16 @@
 import '../components/css/Home.css';
+//import {useState } from 'react';
+import Modal from "../components/Modal";
 
 const Home = () => {
+    //const [isModalOpen, setIsModalOpen] = useState(false);
     return(
         <main className="home">
             <section id="intro" className="text-white text-center ">
                 <h1 className="fw-bold">Bonjour, je suis Léann Farant</h1>
                 <h2 className="fw-bold">Développeur web full stack</h2>
-                <button className="btn bg-danger text-white mt-3" type="button" data-bs-toggle="modal" data-bs-target="#modal">En savoir plus</button>
+                <button className="btn bg-danger text-white mt-3" type="button" data-bs-toggle="modal" data-bs-target="#myModal">En savoir plus</button>
+                <Modal/>
             </section>
 
             <section id="pres" className="container shadow-lg p-4 my-5">
