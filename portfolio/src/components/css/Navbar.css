@@ -3,6 +3,11 @@ nav ul{
     justify-content: space-between;
 }
 
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
 .nav-link, .navbar-brand {
     color: white ;
     text-transform: uppercase;

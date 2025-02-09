@@ -1,9 +1,7 @@
 import '../components/css/Home.css';
-//import {useState } from 'react';
 import Modal from "../components/Modal";
 
 const Home = () => {
-    //const [isModalOpen, setIsModalOpen] = useState(false);
     return(
         <main className="home">
             <section id="intro" className="text-white text-center ">

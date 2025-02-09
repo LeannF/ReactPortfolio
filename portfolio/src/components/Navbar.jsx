@@ -6,7 +6,7 @@ const Navbar = () => {
         <header>
             <nav className="navbar navbar-expand-lg bg-dark z-2">
                 <div className="container-fluid">
-                    <Link className="navbar-brand mx-4" >Léann FARANT</Link>
+                    <Link to="/" aria-current="page/" className="navbar-brand mx-4" >Léann FARANT</Link>
                     <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -21,7 +21,7 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link to="/projects" className="nav-link">Portfolio</Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item ">
                                 <Link to="/contact" className="nav-link">Contact</Link>
                             </li>
                             <li className="nav-item">
