@@ -98,7 +98,7 @@ const Projects = () => {
                         <div className="card ">
                             <img src="img/portfolio/ennisia.png" className="card-img-top" alt=""/>
                             <div className="card-body">
-                                <h2 className="card-title">Card title</h2>
+                                <h2 className="card-title">Ennisia</h2>
                                 <p className="card-text">Jeu vidéo de type RPG gacha </p>
                                 <Link to="https://github.com/LeannF">
                                     <button className="btn btn-primary">Voir le jeu</button>
